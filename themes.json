@@ -1,16 +1,14 @@
 {
-    "themes": {
-        "light": {
-            "prompt_color": "\\033[1;32m",
-            "error_color": "\\033[1;31m",
-            "bg_color": "\\033[48;5;15m",
-            "fg_color": "\\033[38;5;0m"
-        },
-        "dark": {
-            "prompt_color": "\\033[1;34m",
-            "error_color": "\\033[1;31m",
-            "bg_color": "\\033[48;5;0m",
-            "fg_color": "\\033[38;5;15m"
-        }
+    "prompt_format": "{username}@{hostname}:{cwd} > ",
+    "colors": {
+        "prompt": "\u001b[1;34m",    
+        "success": "\u001b[1;32m",   
+        "error": "\u001b[1;31m",     
+        "reset": "\u001b[0m"
+    },
+    "icons": {
+        "success": "✔",
+        "error": "❌",
+        "lightning": "⚡"
     }
 }

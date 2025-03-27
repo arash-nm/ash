@@ -2,7 +2,7 @@ import os
 import json
 
 # مسیر فایل تم
-THEME_FILE = "theme.json"
+THEME_FILE = "themes.json"
 
 def load_theme():
     """Load theme from JSON file."""
