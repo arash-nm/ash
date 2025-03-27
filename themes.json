@@ -1,0 +1,16 @@
+{
+    "themes": {
+        "light": {
+            "prompt_color": "\\033[1;32m",
+            "error_color": "\\033[1;31m",
+            "bg_color": "\\033[48;5;15m",
+            "fg_color": "\\033[38;5;0m"
+        },
+        "dark": {
+            "prompt_color": "\\033[1;34m",
+            "error_color": "\\033[1;31m",
+            "bg_color": "\\033[48;5;0m",
+            "fg_color": "\\033[38;5;15m"
+        }
+    }
+}
