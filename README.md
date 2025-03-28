@@ -1,23 +1,41 @@
-# Ash Shell 🚀
+# 🚀 ash - A Minimalist Custom Shell
 
-Welcome to **Ash Shell**, a lightweight and customizable terminal shell written in Python. This is a basic terminal shell that allows users to run commands, navigate directories, and customize the prompt with beautiful themes. 🌟
+Welcome to **ash**, a lightweight and customizable shell designed for a unique command-line experience. This project is in its **early development stage**, and new features are being actively added. Stay tuned! 🎉
 
-## 🚧 In Development
-This project is a work in progress. It aims to provide an intuitive and simple terminal interface with additional features and improvements coming soon! 🔥
+## 📌 Features
+- 🖌️ **Custom Theming**: Load and apply themes just like Linux shell themes.
+- 📂 **Directory Navigation**: Easily move between directories using `cd`.
+- 🏗️ **Modular Structure**: Theme settings are loaded separately from `theme_loader.py`.
+- 🏃 **Execute Commands**: Run system commands directly from the shell.
+- ❌ **Exit Gracefully**: Use `exit` to quit the shell safely.
 
-## Features ✨
-
-- **Customizable Prompt**: The shell prompt can be modified with different styles and colors.
-- **Command Execution**: Run shell commands just like in a regular terminal.
-- **Directory Navigation**: Navigate directories with `cd` command.
-- **Error Handling**: Catch and display error messages in a clear and readable format.
-- **Improved User Experience**: Interactive features like input history and prompt customization are in the works.
-
-## 🚀 Installation
-
-To get started, clone this repository and run the following command:
-
+## 📜 Installation
+Clone the repository and run the shell:
 ```bash
-git clone https://github.com/your-username/ash.git
+git clone https://github.com/arash-nm/ash.git
 cd ash
-python3 ash.py
+chmod +x ash.py
+./ash.py
+```
+
+## ⚙️ Configuration
+You can customize the shell theme by modifying the `theme_loader.py` file or creating your own theme file.
+
+## 📌 Usage
+Run the shell and start using it:
+```bash
+./ash.py
+```
+Available commands:
+- `cd <directory>` - Change directory
+- `exit` - Quit the shell
+- Any other valid system command
+
+## 📢 Contributing
+This project is in **active development**. Feel free to fork the repository and submit pull requests.
+
+## 📜 License
+This project is licensed under the MIT License.
+
+Happy hacking! 😃
+
